@@ -1,3 +1,40 @@
+/* Navbar */
+.navbar-brand {
+    font-size: clamp(1.2rem, 2.5vw, 1.5rem); /* Responsive font size */
+    padding: 0.5rem 1rem;
+}
+.navbar-brand i {
+    font-size: clamp(1.2rem, 2.5vw, 1.5rem); /* Match icon size to text */
+}
+.nav-link {
+    font-size: clamp(0.9rem, 2vw, 1.1rem); /* Responsive nav link size */
+    padding: 0.5rem 0.75rem !important; /* Adjust padding for smaller screens */
+}
+
+
+/* Media Queries for Fine-Tuning */
+@media (max-width: 991.98px) { /* When navbar collapses (mobile) */
+    .navbar-nav {
+        text-align: center; /* Center links in mobile view */
+    }
+    .nav-link {
+        font-size: clamp(1rem, 3vw, 1.2rem); /* Slightly larger for mobile */
+        padding: 0.75rem 1rem !important; /* More spacing in mobile menu */
+    }
+    .navbar-brand {
+        font-size: clamp(1rem, 2.5vw, 1.3rem); /* Smaller brand text on mobile */
+    }
+}
+
+@media (min-width: 1200px) { /* Larger screens */
+    .navbar-brand {
+        font-size: clamp(1.4rem, 2.5vw, 1.7rem); /* Larger brand text */
+    }
+    .nav-link {
+        font-size: clamp(1rem, 2vw, 1.2rem); /* Larger nav links */
+    }
+}
+
 /* Hero Section */
 .hero-section {
     background-size: cover;
@@ -75,3 +112,4 @@ form .form-control:focus {
     font-weight: 600;
 }
 /* Contact Section */
+
