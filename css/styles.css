@@ -44,5 +44,34 @@ form .form-control:focus {
     box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 } */
 
-
+/* Programs Section */
+.accordion-button {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color:#111;
+    background-color: transparent !important; /* Remove default background */
+    box-shadow: none !important; /* Remove any shadow */
+}
+.accordion-button:not(.collapsed) {
+    color:#111; /*Keep text color change on active*/
+    background-color: rgba(0, 128, 0, 0.5) !important; /* Remove active background */
+    box-shadow: none !important; /* Remove any shadow */
+}
+.accordion-body {
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+}
+.accordion-button i {
+    font-size: 1.5rem;
+}
+.accordion-item {
+    margin-bottom: 10px;
+    border-radius: 0.25rem;
+    overflow: hidden;
+}
+#programs h4 {
+    color: #343a40;
+    font-weight: 600;
+}
 /* Contact Section */
