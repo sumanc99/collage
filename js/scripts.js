@@ -137,7 +137,7 @@ const programs = [
     {
         category: "Distance Learning",
         title: "Department Of Allied Health Sciences",
-        description: "This department offers BSc programs in Complementary & Altern. Medicine, Environmental Health Science, IT and Health Informatics, Medical Laboratory Science, Nursing, and Public Health, preparing students for diverse roles in healthcare and health-related fields.",
+        description: "This department offers BSc programs in Complementary & Altern. Medicine, Environmental Health Science, IT and Health Informatics, Medical Laboratory Science, Nursing,Community Health, and Public Health, preparing students for diverse roles in healthcare and health-related fields.",
         icon: "bi-hospital"
     }, 
     {
@@ -171,7 +171,7 @@ const programs = [
     // Diploma Programs
     {
         category: "Diploma",
-        title: "Community Health (CHEW)",
+        title: "Community Health Extension Worker (CHEW)",
         description: "Gain comprehensive knowledge and practical skills essential for community health workers, focusing on disease prevention, health promotion, and the delivery of primary healthcare services at the grassroots level, empowering communities to achieve better health outcomes.",
         icon: "bi-heart-pulse-fill"
     },
