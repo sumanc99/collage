@@ -214,6 +214,13 @@ const programs = [
         icon: "bi-code-slash"
     }, 
     
+    {
+        category: "Diploma",
+        title: "Health Information Management",
+        description: "Gain practical skills in managing healthcare data, patient records, and information systems. This program equips you with the knowledge to maintain confidentiality, ensure data accuracy, and support efficient healthcare delivery through effective information management practices.",
+        icon: "bi-file-earmark-medical"
+    }, 
+    
     // {
     //     category: "Diploma",
     //     title: "Diploma in Pharmacy Technician",
