@@ -8,6 +8,23 @@ window.addEventListener('scroll', function() {
     }
 });
 
+// Auto-close navbar on nav link click
+document.addEventListener('DOMContentLoaded', () => {
+    const navLinks = document.querySelectorAll('.nav-link');
+    const navbarCollapse = document.querySelector('#navbarNav');
+
+    navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            if (navbarCollapse.classList.contains('show')) {
+                const collapse = new bootstrap.Collapse(navbarCollapse, {
+                    toggle: false
+                });
+                collapse.hide();
+            }
+        });
+    });
+});
+
 // About Section Read More/Read Less
 document.addEventListener('DOMContentLoaded', () => {
     const readMoreBtn = document.getElementById('readMoreBtn');
